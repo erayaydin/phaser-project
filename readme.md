@@ -30,7 +30,7 @@ Please, navigate into the template directory's root and use that command for ins
 
 ```
 npm install
-``
+```
 
 This will read `package.json` and install dependencies.
 
