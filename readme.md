@@ -54,3 +54,11 @@ Grunt will work in background. When you change your script files, it will re-com
 2. Object files  (src/game/objects/**/*.js)
 3. State files   (src/game/states/**/*.js)
 4. Main files    (src/game/*.js)
+
+### Future Ideas
+
+- `Jade` support.
+- `Coffeescript` support.
+- `Uglify` support for production.
+- `Copy` support for copy assets files.
+- `Cssmin` support to minified css for production.
