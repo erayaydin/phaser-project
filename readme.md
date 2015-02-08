@@ -6,6 +6,9 @@ Its a ready and simple project template for your next [Phaser](http://phaser.io)
 
 - **Gruntfile.js** for all your game scripts to one file, also with `watch` , its automaticly re-compile.
 - **Package.json** for initialize your npm package and set dependencies.
+- **States**
+- **Objects**
+- **Libraries**, like Phaser.
 
 ### Setting up This Project Template
 
@@ -42,3 +45,12 @@ grunt
 This will launch your browser automaticly.
 
 Grunt will work in background. When you change your script files, it will re-compile scripts every time.
+
+---
+
+### Concat Include Order
+
+1. Library files (Like Phaser)
+2. Object files  (src/game/objects/**/*.js)
+3. State files   (src/game/states/**/*.js)
+4. Main files    (src/game/*.js)
